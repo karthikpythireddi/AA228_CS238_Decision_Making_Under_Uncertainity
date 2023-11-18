@@ -4,14 +4,12 @@
 
 [AA228/CS238: Decision Making under Uncertainty](https://aa228.stanford.edu), Winter 2023, Stanford University.
 
-This repository provides starter code and data for Projects 1 and 2.
+This repository provides contains the code and writeup for Projects 1 and 2.
 
 
 ## Project 1: Bayesian Structure Learning
 
 [![Project 1 Details](https://img.shields.io/badge/project1-details-blue)](https://web.stanford.edu/class/aa228/cgi-bin/wp/project-1/) [![Project 1 Template](https://img.shields.io/badge/project1-LaTeX%20template-white)](https://www.overleaf.com/read/hxwgtnksxtts)
-
-[LaTeX Overleaf template](https://www.overleaf.com/read/hxwgtnksxtts): click the link, go to "Menu", and "Copy Project" (make sure you're signed into Overleaf). Note this is an optional template, you're free to use your own (or not even LaTeX).
 
     project1/
     ├── data                    # CSV data files to apply structured learning
@@ -27,43 +25,10 @@ This repository provides starter code and data for Projects 1 and 2.
     ├── project1.jl             # Starter code in Julia (optional, meant to help)
     └── project1.py             # Starter code in Python (optional, meant to help)
 
-Notes:
-- The starter code is there to help, but you're free to use any language.
-- Use `example.gph` to validate your Bayesian scoring algorithm, not your structure learning algorithm.
-
-<sup>1</sup>https://cran.r-project.org/web/packages/titanic/titanic.pdf
-<br>
-<sup>2</sup>https://archive.ics.uci.edu/ml/datasets/Wine+Quality
-
-#### Graph Plotting
-Here are some resources for plotting graphs in Julia, Python, and MATLAB.
-- Julia:
-    - [`TikzGraphs.jl`](https://nbviewer.jupyter.org/github/JuliaTeX/TikzGraphs.jl/blob/master/doc/TikzGraphs.ipynb)
-    - [`GraphPlot.jl`](https://github.com/JuliaGraphs/GraphPlot.jl)
-    - [`Graphs.jl`](https://juliagraphs.org/Graphs.jl/dev/)
-- Python:
-    - [`NetworkX`](https://networkx.github.io/documentation/stable/tutorial.html)
-- MATLAB:
-    - [`GraphPlot`](https://www.mathworks.com/help/matlab/ref/matlab.graphics.chart.primitive.graphplot.html)
-
-Here's a minimum working example using `TikzGraphs.jl` in Julia:
-```julia
-using Graphs  # for DiGraph and add_edge!
-using TikzGraphs   # for TikZ plot output
-using TikzPictures # to save TikZ as PDF
-
-g = DiGraph(2) # create a directed graph
-add_edge!(g, 1, 2) # add edge from node 1 to node 2
-
-p = plot(g, ["First", "Second"]) # create TikZ plot with labels
-save(PDF("graph.pdf"), p) # save TikZ as PDF
-```
 
 ## Project 2: Reinforcement Learning
 
 [![Project 2 Details](https://img.shields.io/badge/project2-details-blue)](https://web.stanford.edu/class/aa228/cgi-bin/wp/project-2/) [![Project 2 Template](https://img.shields.io/badge/project2-LaTeX%20template-white)](https://www.overleaf.com/read/gsptsmcrzpdv)
-
-[LaTeX Overleaf template](https://www.overleaf.com/read/gsptsmcrzpdv): click the link, go to "Menu", and "Copy Project" (make sure you're signed into Overleaf). Note this is an optional template, you're free to use your own (or not even LaTeX).
 
     project2/
     └── data                      # CSV data files of (s,a,r,sp)
