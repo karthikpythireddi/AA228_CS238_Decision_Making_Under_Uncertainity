@@ -13,17 +13,9 @@ This repository provides contains the code and writeup for Projects 1 and 2.
 
     project1/
     ├── data                    # CSV data files to apply structured learning
-    │   ├── small.csv               # Titanic dataset¹
-    │   ├── medium.csv              # Wine dataset²
-    │   └── large.csv               # Secret dataset
-    ├── example                 # Helpful examples
-    │   ├── example.gph             # Example graph (3 parents, 1 child each)
-    │   ├── example.csv             # Example data generated from "example.gph"
-    │   ├── example.score           # Bayesian score of the "examples.gph" given the data "examples.csv"
-    │   ├── examples.pdf            # Visualized "examples.gph" as a TikZ graph
-    │   └── titanicexample.pdf      # Simple example network using "small.csv"
-    ├── project1.jl             # Starter code in Julia (optional, meant to help)
-    └── project1.py             # Starter code in Python (optional, meant to help)
+        ├── small.csv               # Titanic dataset¹
+        ├── medium.csv              # Wine dataset²
+        └── large.csv               # Secret dataset        
 
 
 ## Project 2: Reinforcement Learning
