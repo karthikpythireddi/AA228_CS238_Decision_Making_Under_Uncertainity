@@ -36,7 +36,4 @@ This repository provides contains the code and writeup for Projects 1 and 2.
         ├── medium.csv                # MountainCarContinuous-v0
         └── large.csv                 # Secret RL problem
 
-*Note: no starter code provided for Project 2.*
 
-## Contact
-Please post on [Ed](https://edstem.org/) with any questions regarding this code, the data, and the projects in general. We'd be happy to help!
