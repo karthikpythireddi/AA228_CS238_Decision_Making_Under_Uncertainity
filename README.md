@@ -35,5 +35,5 @@ This repository provides contains the code and writeup for Projects 1 and 2.
         ├── Q_Value_Heatmap.png
         ├── Rolling_Mean_Rewards_Comparison.png
         ├── Running_Average_Reward.png
-        ├── Smoothed_Q-Learning_vs_No-Q-Learning_Cumulative_Rewards.png
+        └── Smoothed_Q-Learning_vs_No-Q-Learning_Cumulative_Rewards.png
         
