@@ -1,6 +1,4 @@
 # AA228-CS238-Student
-[![AA228/CS238 Gradescope](https://img.shields.io/badge/aa228%2Fcs238-gradescope-green?color=42a0a2)](https://www.gradescope.com/courses/306587)
-
 
 [AA228/CS238: Decision Making under Uncertainty](https://aa228.stanford.edu), Winter 2023, Stanford University.
 
@@ -29,3 +27,13 @@ This repository provides contains the code and writeup for Projects 1 and 2.
         └── large.csv                 # Secret RL problem
 
 
+## Final Project: Model Free Reinforcement Learning for On-Demand Delivery Optimization
+
+    Final_Project/
+    └── ├── Final_Version.jl          # Julia Implementation
+        ├── Policy_Plot.png            
+        ├── Q_Value_Heatmap.png
+        ├── Rolling_Mean_Rewards_Comparison.png
+        ├── Running_Average_Reward.png
+        ├── Smoothed_Q-Learning_vs_No-Q-Learning_Cumulative_Rewards.png
+        
