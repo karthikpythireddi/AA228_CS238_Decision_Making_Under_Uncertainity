@@ -1,9 +1,8 @@
+using Pluto
 using Plots
 using CSV
 using DataFrames
 using Random
-
-
 
 # Define a Q-learning model type
 mutable struct Q_learning
